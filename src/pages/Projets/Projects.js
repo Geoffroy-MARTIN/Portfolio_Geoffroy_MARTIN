@@ -12,13 +12,13 @@ export default function Project() {
 
         <div className="project-div">
           <p className="box-title">Mafate-jobs</p>
-          <img src={image_mafate_jobs} className="image_mafate_jobs"/>
+          <img src={image_mafate_jobs} alt="image_mafate_jobs" className="image_mafate_jobs"/>
           <a href="https://github.com/LAVITGaetan/mafate-jobs">Git</a>
         </div>
 
         <div className="project-div">
           <p className="box-title">Portfolio</p>
-         <img src={image_portfolio} className="image_portfolio"/>
+         <img src={image_portfolio} alt="image_porfolio" className="image_portfolio"/>
           <a href="">Git</a>
         </div >
 

@@ -16,19 +16,19 @@ export default function Competence() {
 
       <div className="main-grid">
         <div className="competence-box">
-          <img src={image1} alt="" className="react-image" />
+          <img src={image1} alt="logo_react" className="react-image" />
 
         </div>
         <div className="competence-box">
-          <img src={image2} alt="" className="html-image" />
+          <img src={image2} alt="logo_html" className="html-image" />
         </div>
 
         <div className="competence-box">
-          <img src={image3} alt="" className="css-image" />
+          <img src={image3} alt="logo_css" className="css-image" />
         </div>
 
         <div className="competence-box">
-          <img src={image4} alt="" className="javascript-image"/>
+          <img src={image4} alt="logo_javascript" className="javascript-image"/>
         
         </div>
 
