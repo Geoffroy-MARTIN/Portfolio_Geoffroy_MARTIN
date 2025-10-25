@@ -11,6 +11,21 @@
   background-color: #fff;
 }
 
+.project-div a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.project-div a:visited {
+  color: black;
+}
+
+.project-div a:hover {
+  color: red;
+}
+
+
 .project-title {
   font-size: 2.5rem;
   grid-area: 1/20/30/40;
@@ -81,4 +96,7 @@
 .box-title{
   font-size: 1rem;
 }
+
+
+
 }

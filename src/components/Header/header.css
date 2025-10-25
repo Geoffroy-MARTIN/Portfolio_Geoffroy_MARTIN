@@ -31,3 +31,14 @@
 .nav-links a:hover {
   color: #d00;
 }
+
+
+.icon {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}

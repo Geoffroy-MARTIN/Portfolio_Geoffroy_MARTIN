@@ -13,19 +13,19 @@ export default function Project() {
         <div className="project-div">
           <p className="box-title">Mafate-jobs</p>
           <img src={image_mafate_jobs} alt="image_mafate_jobs" className="image_mafate_jobs"/>
-          <a href="https://github.com/LAVITGaetan/mafate-jobs">Git</a>
+          <a href="https://github.com/LAVITGaetan/mafate-jobs">GitHub</a>
         </div>
 
         <div className="project-div">
           <p className="box-title">Portfolio</p>
          <img src={image_portfolio} alt="image_porfolio" className="image_portfolio"/>
-          <a href="">Git</a>
+          <a href="https://github.com/Geoffroy-MARTIN/Portfolio_Geoffroy_MARTIN">GitHub</a>
         </div >
 
         <div className="project-div">
           <p className="box-title">Jeu du pendu</p>
           <img src={image_pendu} alt="jeu-du-pendu" className="image_pendu"/>
-          <a href="https://github.com/Geoffroy-MARTIN/Pendu_game">Git</a>
+          <a href="https://github.com/Geoffroy-MARTIN/Pendu_game">GitHub</a>
         </div>
       </div>
     </section>
