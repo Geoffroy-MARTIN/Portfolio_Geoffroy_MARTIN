@@ -1,0 +1,33 @@
+
+.header {
+  font-family: 'Space Grotesk', sans-serif;
+  padding: 20px 40px;
+  max-height: 100px;
+  overflow: hidden;
+
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.nav-links {
+  display: flex;
+  gap: 150px; 
+  
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #d00;
+}

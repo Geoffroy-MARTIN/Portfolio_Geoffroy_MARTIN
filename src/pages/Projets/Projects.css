@@ -1,0 +1,84 @@
+.project-section {
+  font-family: 'Space Grotesk', sans-serif;
+  display: grid;
+  grid-template-columns: repeat(300, 1fr);
+  grid-template-rows: repeat(300, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  background-color: #fff;
+}
+
+.project-title {
+  font-size: 2.5rem;
+  grid-area: 1/20/30/40;
+  z-index: 1000;
+}
+
+.rectangle-rouge {
+  background-color: rgba(222, 0, 0, 0.656);
+  grid-area: 1/1/20/70;
+}
+
+.grid-rectangle {
+  display: grid;
+  grid-area: 100/1/200/300;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.project-div {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image_mafate_jobs {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.image_portfolio {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.image_pendu {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+.box-title{
+  font-size: 1.2rem;
+  
+}
+
+@media screen and (max-width: 720px) {
+  .grid-rectangle {
+  display: grid;
+  grid-area: 30/1/200/300;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.rectangle-rouge {
+  background-color: rgba(222, 0, 0, 0.656);
+  grid-area: 1/1/20/120;
+}
+
+.project-title{
+  font-size: 1.5rem;
+}
+
+.box-title{
+  font-size: 1rem;
+}
+}

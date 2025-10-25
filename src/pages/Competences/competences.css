@@ -1,0 +1,108 @@
+.competences-section{
+  font-family: 'Space Grotesk', sans-serif;
+  display: grid;
+  grid-template-columns: repeat(300, 1fr);
+  grid-template-rows: repeat(300, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  background-color: #fff;
+}
+
+.carre-rouge{
+  grid-area: 1/1/30/130;
+  background-color:  rgba(222, 0, 0, 0.656);
+}
+
+.main-grid{
+  display: grid;
+  grid-area: 100/90/150/210;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(1,1fr);
+  gap: 50px;
+}
+.competence-box{
+  .project-div {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+}
+
+.competences-title{
+  font-size: 2.5rem;
+  grid-area: 1/40/20/100;
+  z-index: 1000;
+}
+
+.react-image {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+.html-image {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+.css-image {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+.javascript-image{
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+.text{
+  grid-area: 40/40/70/301;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .carre-rouge{
+  grid-area: 1/1/30/170;
+  background-color:  rgba(222, 0, 0, 0.656);
+}
+.main-grid{
+  display: grid;
+  grid-area: 100/60/150/240;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(1,1fr);
+  gap: 50px;
+}
+}
+
+@media screen and (max-width:620px) {
+ .competences-title{
+  font-size: 1.2rem;
+}
+ .carre-rouge{
+  grid-area: 1/1/15/130;
+  background-color:  rgba(222, 0, 0, 0.656);
+}
+.main-grid{
+  display: grid;
+  grid-area: 100/30/150/270;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(1,1fr);
+  gap: 50px;
+}
+}
+
+@media screen and (max-width:430px) {
+
+ .carre-rouge{
+  grid-area: 1/1/15/160;
+  background-color:  rgba(222, 0, 0, 0.656);
+}
+
+}

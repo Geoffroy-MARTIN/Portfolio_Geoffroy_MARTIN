@@ -1,0 +1,58 @@
+.apropos-section {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: bold;
+  padding: 40px;
+  background-color: #fff;
+   min-height: 100vh;
+  max-height: 100vh;
+}
+
+.apropos-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 40px;
+}
+
+.box {
+  padding: 20px;
+  background-color: rgba(222, 0, 0, 0.656);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.apropos-title{
+  font-size: 2.5rem;
+}
+
+.title-box{
+  font-size: 1.7rem;
+}
+
+
+.text{
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 720px) {
+
+  .apropos-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); 
+  gap: 40px;
+}
+
+.text{
+  font-size: 0.7rem;
+}
+
+.title-box{
+  font-size: 1.2rem;
+}
+
+.apropos-title{
+  font-size: 1.5rem;
+}
+
+
+  
+}
